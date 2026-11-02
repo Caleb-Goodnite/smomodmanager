@@ -1,0 +1,7 @@
+build/
+*.nro
+*.nacp
+*.elf
+*.map
+.DS_Store
+__pycache__/
