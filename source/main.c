@@ -1,6 +1,6 @@
-// Odyssey Mod Switch: a two-column mod picker, like Minecraft's resource pack
-// screen. Press A or tap a mod to move it across. Only one mod can be selected,
-// because they all replace the same game files.
+// SMO Mod Switch: a mod manager for Super Mario Odyssey. Press A or tap a mod to
+// toggle it on or off. Only one mod can be on at a time, because they all replace
+// the same game files.
 #include <stdio.h>
 #include <string.h>
 
@@ -109,7 +109,7 @@ static void draw_cell(int row, int x, const char *text, const char *color, bool 
 
 static void draw(void) {
     consoleClear();
-    printf("\x1b[2;3H" COLOR_TITLE "Odyssey Mod Switch" COLOR_RESET);
+    printf("\x1b[2;3H" COLOR_TITLE "SMO Mod Switch" COLOR_RESET);
     const char *system_text = "Unknown system: mods can't be turned on";
     const char *system_color = COLOR_RED;
     if (g_system == SYSTEM_EMUMMC) {

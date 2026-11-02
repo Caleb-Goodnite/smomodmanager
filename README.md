@@ -1,12 +1,12 @@
-# Odyssey Mod Switch
+# SMO Mod Switch
 
-A Nintendo Switch homebrew app for turning Super Mario Odyssey mods on and off without a PC or a reboot. It works like Minecraft's resource pack screen: press A or tap a mod to move it from **Available** to **Selected**. Only one mod can be selected at a time, because these mods replace the same game files.
+A mod manager for Super Mario Odyssey on Nintendo Switch. Toggle mods on and off without a PC or a reboot: press A or tap a mod to move it between **Available** and **Selected**. Only one mod can be on at a time, because these mods replace the same game files.
 
 Changes apply the next time you launch the game.
 
 ## Setup
 
-1. Put `OdysseyModSwitch.nro` in `/switch/` on your SD card.
+1. Download `SMOModMgr.nro` from [Releases](https://github.com/Caleb-Goodnite/smomodmanager/releases/latest) and put it in `/switch/` on your SD card.
 2. Put each mod in its own folder:
 
    ```

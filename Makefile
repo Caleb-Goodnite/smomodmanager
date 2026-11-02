@@ -10,15 +10,15 @@ endif
 TOPDIR ?= $(CURDIR)
 include $(DEVKITPRO)/libnx/switch_rules
 
-TARGET   := OdysseyModSwitch
+TARGET   := SMOModMgr
 BUILD    := build
 SOURCES  := source
 DATA     := data
 INCLUDES := source
 
-APP_TITLE   := Odyssey Mod Switch
+APP_TITLE   := SMO Mod Switch
 APP_AUTHOR  := calebg
-APP_VERSION := 1.0.0
+APP_VERSION := 1.0.1
 
 ARCH := -march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 
